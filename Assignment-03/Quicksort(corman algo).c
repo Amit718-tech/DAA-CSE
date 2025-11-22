@@ -9,7 +9,7 @@ int main()
     scanf("%d",&n);
     int A[n];
                                                          // space complexcity-O(n)--<log n to n>.
-    printf("Enter the array element:");                 // Best case-O(nlogn) if partition done always in the middle means piovt element is median
+    printf("Enter the array element:");                 // Best case-O(nlogn) if partition done always in the middle means pivot element is median
                                                         // worst case-O(n^2) if the array is already sorted.
     for(int i=0;i<n;i++)
     {
