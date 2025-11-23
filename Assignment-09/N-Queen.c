@@ -21,7 +21,7 @@ void printSolution() {
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n; j++) {
             if (x[i] == j)
-                printf(" Q ");
+                printf(" Q%d",i);
             else
                 printf(" . ");
         }
